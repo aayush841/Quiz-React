@@ -37,7 +37,7 @@ const QuestionCard = () => {
   };
 
   return (
-   <div className="w-full min-h-[calc(100vh-120px)] flex justify-center items-center px-4 pt-20 sm:pt-24">
+   <div className="w-full min-h-[calc(100vh-120px)] flex justify-center items-center px-4 pt-20 pb-32 sm:pb-24">
       <div className="bg-white shadow-md rounded-xl p-6 w-full max-w-2xl animate-fade-in">
         <div className="mb-2 text-sm text-gray-500 text-center">
           Question {currentQuestion + 1} of {questions.length}
