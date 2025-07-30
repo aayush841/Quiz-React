@@ -1,12 +1,38 @@
-# React + Vite
+# 🧠 Quiz App (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and attractive quiz application built using **React**, **Redux Toolkit**, and **Tailwind CSS**. It features real-time state management, timed quizzes, answer tracking, navigation grid, and a results summary with restart option.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📧 Email entry to start quiz
+- 🔁 Dynamic quiz questions from API
+- 🕒 Countdown timer (30 minutes)
+- ✅ Track visited, attempted, current questions
+- 📊 Question Grid navigation
+- 💡 Answer feedback (correct/incorrect)
+- 📱 Fully responsive (Mobile, Tablet, Desktop)
+- 🎉 Results page with your answers and correct answers
+- ♻️ Restart quiz anytime
+- 💾 Redux state persistence (localStorage)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 🛠️ Tech Stack
+
+- **React** – UI components
+- **Redux Toolkit** – Global state management
+- **Tailwind CSS** – Styling and responsive layout
+- **JavaScript** – Business logic
+- **Open Trivia API** – Quiz questions
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/aayush841/Quiz-React.git
+cd casualfunnel
+npm install
+npm run dev 
